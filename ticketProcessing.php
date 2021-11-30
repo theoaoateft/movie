@@ -205,7 +205,6 @@ include 'db.php';?>
 		p = 0;
 	}
 </script>
-.juhejpfjsijsvdsnvj
 </body>
 
 </html>
