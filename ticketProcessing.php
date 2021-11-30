@@ -59,9 +59,6 @@ include 'db.php';?>
 					<div class="panel-heading">
 						<h3 class="panel-title">
 							<?php 
-//for time slot
-							//$timeSlot=$conn->query("select time from timeslot");	
-//movie details
 							$movieId=$_POST['movieId'];	
 							$_SESSION['movieId']=$movieId;
 							$res=$conn->query("select * from movielist where movieId=$movieId;");
